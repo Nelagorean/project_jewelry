@@ -1,37 +1,37 @@
 ---
-title: Этап 1 "Инициация" жизненного цикла проекта "Информационная система для управления магазином ювелирных украшений"
+title: Example Event
 
-event: Разработка и внедрение ИС для магазина ювелирных украшений
+event: Wowchemy Conference
 event_url: https://example.org
 
-location: JewelryShine
+location: Wowchemy HQ
 address:
-  street: Улица не указана
-  city: Город не указан
-  region: Регион не указан
-  postcode: '000000'
-  country: Россия
+  street: 450 Serra Mall
+  city: Stanford
+  region: CA
+  postcode: '94305'
+  country: United States
 
-summary: Проект по созданию информационной системы для автоматизации бизнес-процессов магазина ювелирных украшений.
-abstract: 'Проект направлен на разработку информационной системы, которая позволит автоматизировать управление товарными запасами, заказами, клиентами и продажами. Система включает онлайн-магазин, интеграцию с платежными системами, CRM и аналитику продаж. Основные цели — повышение эффективности работы магазина и улучшение обслуживания клиентов.'
+summary: An example event.
+abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-04-01T10:00:00Z'
-date_end: '2025-04-01T12:00:00Z'
+date: '2030-06-01T13:00:00Z'
+date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-01-01T00:00:00Z'
+publishDate: '2017-01-01T00:00:00Z'
 
-authors: [Гузева Ирина, Горяйнова Алёна]
-tags: [ювелирные украшения, информационная система, автоматизация]
+authors: []
+tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
-  caption: 'Изображение магазина ювелирных украшений'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
 url_code: ''
@@ -44,56 +44,20 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides:
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["jewelry-management-system"]
+projects:
 ---
 
-## Описание проекта
+Slides can be added in a few ways:
 
-**Цели разработки информационной системы:**
-1. Автоматизация бизнес-процессов магазина.
-2. Повышение эффективности управления товарными запасами.
-3. Улучшение качества обслуживания клиентов.
-4. Увеличение продаж за счет персонализированных предложений и акций.
-5. Сбор и анализ данных о предпочтениях клиентов.
-6. Упрощение процесса заказа и оплаты для клиентов.
+- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
-**Основные функциональные возможности:**
-- Управление товарными запасами (учет, резервирование, уведомления).
-- Управление заказами (оформление, оплата, отслеживание статуса).
-- Управление клиентами (база данных, персонализированные предложения, система лояльности).
-- Управление продажами (аналитика, отчеты, маркетинговые акции).
-- Онлайн-магазин с каталогом товаров и корзиной заказов.
-
-**Технологии:**
-- Backend: Python (Django/Flask), Node.js, или PHP (Laravel).
-- Frontend: HTML, CSS, JavaScript (React.js или Vue.js).
-- База данных: PostgreSQL или MySQL.
-- Интеграции: платежные системы (Яндекс.Касса, Stripe), CRM, SMS- и email-рассылки.
-
-**Сроки и бюджет:**
-- Общий срок реализации: 14 недель.
-- Бюджет проекта: 700 000 рублей.
-
-## SWOT-анализ
-
-| Сильные стороны (Strengths)       | Слабые стороны (Weaknesses)       |
-|-----------------------------------|-----------------------------------|
-| Автоматизация процессов           | Высокая стоимость разработки      |
-| Улучшение обслуживания клиентов   | Необходимость обучения сотрудников |
-| Аналитика данных                  | Риски технических сбоев           |
-
-| Возможности (Opportunities)       | Угрозы (Threats)                  |
-|-----------------------------------|-----------------------------------|
-| Рост продаж                       | Конкуренция на рынке              |
-| Расширение клиентской базы        | Риски кибератак                   |
-| Масштабируемость системы          | Сопротивление сотрудников         |
-
-Для дополнительной информации свяжитесь с авторами проекта.
----
+Further event details, including page elements such as image galleries, can be added to the body of this page.
